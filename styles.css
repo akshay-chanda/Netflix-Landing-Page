@@ -27,6 +27,10 @@ body {
   height: 40px;
 }
 
+.logo2 img {
+  display: none;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -60,7 +64,7 @@ body {
 
 /* Hero */
 .hero {
-  margin-top: 80px;
+  margin-top: 20px;
   height: 70vh;
   background: url('Series Content/Hero-img.jpg') no-repeat center center/cover;
   display: flex;
@@ -143,7 +147,8 @@ body {
 }
 
 .poster {
-  width: 250px;
+  width: 260px;
+  height: 170px;
   object-fit: cover;
   margin-right: 12px;
   border-radius: 4px;
@@ -250,21 +255,234 @@ body {
   border-top: 2px solid #333;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
+/* ----------------- Responsive CSS ----------------- */
+
+/* For large tablets & small laptops (<= 1200px) */
+@media (max-width: 1200px) {
   .hero-text h1 {
-    font-size: 2.2rem;
+    font-size: 4rem;
   }
+
   .hero-text p {
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
+
+  .row h2 {
+    font-size: 2rem;
+  }
+
   .poster {
-    width: 130px;
+    width: 250px;
   }
+
+  .logo img {
+    height: 45px;
+  }
+
+  .profile img {
+    height: 75px;
+  }
+
+  .nav-links {
+    margin-left: 25px;
+  }
+
+  .nav-links a {
+    font-size: 1.4rem;
+    margin: 0px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    font-size: 20px;
+  }
+}
+
+/* For tablets (<= 805px) */
+@media (max-width: 805px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 20px;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+
+  .profile img {
+    height: 75px;
+  }
+
   .nav-links {
     margin-left: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+
   .nav-links li {
-    margin-right: 15px;
+    margin: 10px;
+  }
+
+  .nav-links a {
+    font-size: 1.2rem;
+  }
+
+  .hero {
+    height: 60vh;
+  }
+
+  .hero-text h1 {
+    font-size: 3.5rem;
+    padding-left: 20px;
+  }
+
+  .hero-text p,
+  .hero-buttons {
+    padding-left: 20px;
+  }
+
+  .poster {
+    width: 250px;
+  }
+
+  .row h2 {
+    font-size: 1.7rem;
+  }
+
+  .scroll-buttons {
+    width: 95%;
+  }
+
+  .footer {
+    font-size: 16px;
+  }
+}
+
+/* For small tablets & large phones (<= 665px) */
+@media (max-width: 665px) {
+  .hero {
+    height: 50vh;
+  }
+
+  .hero-text h1 {
+    font-size: 2.9rem;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 0.8rem;
+  }
+
+  .nav-links {
+    margin-left: 10px;
+  }
+
+  .poster {
+    width: 155px;
+  }
+
+  .profile img {
+    height: 52px;
+  }
+
+  .logo img {
+  display: none;
+  }
+
+  .logo2 img {
+    display: inline;
+    height: 30px;
+  }
+
+  .navbar {
+    display: flex;
+    padding: 0px 20px;
+  }
+
+  .nav-links li {
+    margin: 6px;
+  }
+  
+
+  .nav-links a {
+    font-size: 1rem;
+  }
+
+  .row {
+    padding: 0 15px;
+  }
+
+  .row h2 {
+    font-size: 1.45rem;
+  }
+
+  .scroll-buttons {
+    width: 93%;
+  }
+
+  .footer {
+    font-size: 10px;
+  }
+}
+
+/* For small phones (<= 450px) */
+@media (max-width: 450px) {
+  .hero-text h1 {
+    font-size: 2.3rem;
+  }
+
+  .hero-text p {
+    font-size: 1.1rem;
+  }
+
+.logo img {
+  display: none;
+}
+
+  .logo2 img {
+    display: inline;
+    height: 25px;
+  }
+
+  .btn {
+    padding: 6px 12px;
+    font-size: 0.7rem;
+  }
+
+  .poster {
+    width: 140px;
+  }
+
+  .profile img {
+    height: 40px;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .nav-links li {
+    margin: 4.5px;
+  }
+
+  .nav-links {
+    margin-left: 6px;
+  }
+
+  .row h2 {
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    font-size: 8.92px;
   }
 }
