@@ -44,7 +44,7 @@ body {
 .nav-links a {
   color: inherit;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   transition: color 0.3s;
 }
 
@@ -66,7 +66,7 @@ body {
 .hero {
   margin-top: 20px;
   height: 70vh;
-  background: url('Series Content/Hero-img.jpg') no-repeat center center/cover;
+  background: url('Series Content/Hero-Img.jpg') no-repeat center center/cover;
   display: flex;
   align-items: center;
   position: relative;
@@ -272,7 +272,8 @@ body {
   }
 
   .poster {
-    width: 250px;
+    height: 150px;
+    width: 260px;
   }
 
   .logo img {
@@ -288,7 +289,7 @@ body {
   }
 
   .nav-links a {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin: 0px;
   }
 
@@ -347,6 +348,7 @@ body {
   }
 
   .poster {
+    height: 120px;
     width: 250px;
   }
 
@@ -387,11 +389,12 @@ body {
   }
 
   .poster {
-    width: 155px;
+    height: 110px;
+    width: 200px;
   }
 
   .profile img {
-    height: 52px;
+    height: 70px;
   }
 
   .logo img {
@@ -400,12 +403,12 @@ body {
 
   .logo2 img {
     display: inline;
-    height: 30px;
+    height: 40px;
   }
 
   .navbar {
     display: flex;
-    padding: 0px 20px;
+    padding: 1px 20px;
   }
 
   .nav-links li {
@@ -414,7 +417,7 @@ body {
   
 
   .nav-links a {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .row {
@@ -435,7 +438,10 @@ body {
 }
 
 /* For small phones (<= 450px) */
-@media (max-width: 450px) {
+@media (max-width: 495px) {
+  .navbar {
+    padding: 2px 15px;
+  }
   .hero-text h1 {
     font-size: 2.3rem;
   }
@@ -444,13 +450,13 @@ body {
     font-size: 1.1rem;
   }
 
-.logo img {
+  .logo img {
   display: none;
-}
+  }
 
   .logo2 img {
     display: inline;
-    height: 25px;
+    height: 35px;
   }
 
   .btn {
@@ -459,15 +465,16 @@ body {
   }
 
   .poster {
-    width: 140px;
+    height: 100px;
+    width: 170px;
   }
 
   .profile img {
-    height: 40px;
+    height: 60px;
   }
 
   .nav-links a {
-    font-size: 0.9rem;
+    font-size: 0.98rem;
   }
 
   .nav-links li {
