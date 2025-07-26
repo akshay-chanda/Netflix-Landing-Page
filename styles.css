@@ -66,7 +66,7 @@ body {
 .hero {
   margin-top: 20px;
   height: 70vh;
-  background: url('Series Content/Hero-Img.jpg') no-repeat center center/cover;
+  background: url('./Series Content/Hero-Img.jpg') no-repeat center center/cover;
   display: flex;
   align-items: center;
   position: relative;
@@ -147,7 +147,7 @@ body {
 }
 
 .poster {
-  width: 260px;
+  width: 300px;
   height: 170px;
   object-fit: cover;
   margin-right: 12px;
@@ -437,7 +437,7 @@ body {
   }
 }
 
-/* For small phones (<= 450px) */
+/* For small phones (<= 495px) */
 @media (max-width: 495px) {
   .navbar {
     padding: 2px 15px;
@@ -491,5 +491,26 @@ body {
 
   .footer {
     font-size: 8.92px;
+  }
+}
+
+
+/* For small phones (<= 420px) */
+@media (max-width: 420px) {
+  
+  .nav-links a {
+    font-size: 0.8rem;
+  }
+
+  .profile img {
+    height: 45px;
+  }
+
+  .logo2 img {
+    height: 25px;
+  }
+
+  .navbar {
+    padding: 2px 5px;
   }
 }
